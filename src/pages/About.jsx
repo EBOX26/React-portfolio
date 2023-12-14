@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div style={styles.container}>
       <div style={styles.profileContainer}>
-        <img src="/images/commode-1.png" alt="photo" style={styles.profileImage} />
+        <img src="/images/meme.png" alt="photo" style={styles.profileImage} />
         <div style={styles.aboutMe}>
           <h3 style={styles.aboutMeTitle}>About Me</h3>
         </div>
