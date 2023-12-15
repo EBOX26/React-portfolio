@@ -51,7 +51,7 @@ React, eslint, html, JavaScript
 ## Deployment Location <a id="deployment_location"></a>
 
 <!-- Deployment Location -->
-Live site: Thid 
+Live site: https://roaring-snickerdoodle-8f8812.netlify.app/
 
 Github: https://github.com/EBOX26/React-portfolio.git
 
