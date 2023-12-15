@@ -1,7 +1,9 @@
 import React from 'react';
 
+// Path to the resume PDF file
 const resumePath = '/Ethan_Resume.pdf';
 
+// Styles for the button
 const buttonStyle = {
   padding: '12px',
   fontSize: '18px',
@@ -12,6 +14,7 @@ const buttonStyle = {
   border: 'none',
 };
 
+// Styles for the main container
 const containerStyle = {
   display: 'flex',
   flexDirection: 'column',
@@ -25,20 +28,24 @@ const containerStyle = {
   marginBottom: '20px',
 };
 
+// Styles for the subheading
 const subHeadingStyle = {
   fontSize: '2em',
   color: 'white',
 };
 
+// Styles for the list items
 const listStyle = {
   fontSize: '1.5em',
   color: 'white',
   textAlign: 'center',
 };
 
+// React component for the Resume section
 const Resume = () => {
   return (
     <div style={containerStyle}>
+      {/* Link to download the resume PDF */}
       <a
         href={resumePath}
         download="Download My Resume"
@@ -49,8 +56,11 @@ const Resume = () => {
       </a>
       <br />
       <br />
+      {/* Subheading for the section */}
       <h2 style={subHeadingStyle}>Full stack web development student</h2>
+      {/* Empty paragraph for spacing */}
       <p> </p>
+      {/* Front-End section */}
       <p style={listStyle}>
         <u>Front-End</u>
       </p>
@@ -61,6 +71,7 @@ const Resume = () => {
       <li>React Js</li>
       <li>Jquery</li>
       <br />
+      {/* Back-End section */}
       <p style={listStyle}>
         <u>Back-End</u>
       </p>
@@ -72,11 +83,5 @@ const Resume = () => {
   );
 };
 
+// Export the Resume component as the default export
 export default Resume;
-
-
-
-
-
-
-  
