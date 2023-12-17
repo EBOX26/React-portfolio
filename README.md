@@ -7,6 +7,11 @@
 A portfolio made using react with vite as a build manager.
 
 ---
+Screenshots:
+![image](https://github.com/EBOX26/React-portfolio/assets/139289311/70370d3b-d496-4013-a665-e973e1163e3b)
+![image](https://github.com/EBOX26/React-portfolio/assets/139289311/067acc77-13b1-410e-95fe-e76c59169b2a)
+
+
 
 ## Table of Contents
 
